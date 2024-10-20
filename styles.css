@@ -1,0 +1,25 @@
+body {
+    min-height: 100vh;
+    min-width: 10vw;
+    background-color: #000; /* Black background */
+    color: #fff; /* Bright green text */
+    font-family: 'Courier New', Courier, monospace; /* Monospace font for retro look */
+    line-height: 1.5; /* Improved readability */
+    padding: 20px; /* Add padding */
+    font-size: 1rem; /* Set base font size */
+}
+
+pre {
+    margin: 0; /* Remove margin around preformatted text */
+    font-size: 1.5rem; /* Increase font size for preformatted text */
+    white-space: pre-wrap; /* Allow text to wrap */
+}
+
+a {
+    color: #00ff00; /* Green color for links */
+    text-decoration: none; /* Remove underline from links */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover for accessibility */
+}
